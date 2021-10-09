@@ -1,0 +1,67 @@
+body {
+    font-family: Inter, Roboto, Oxygen, Fira Sans, Helvetica Neue, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    color: #eeeeee;
+    background: #333536;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+/* button arrow */
+
+.arrow {
+    border: solid rgb(182, 180, 180);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    background-color: #333536;
+}
+
+.arrow.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    margin-right: 2%;
+}
+
+.arrow.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.days__btn {
+    border-top: solid 0.5px #eeeeee;
+    display: flex;
+    align-items: center;
+}
+
+.days__text {
+    margin-right: 3%;
+}
+
+
+.today {
+    border-top: solid 0.5px #eeeeee;
+}
+
+input {
+    border: solid 0.5px #eeeeee;
+    background: #333536;
+    color: white;
+}
+
+
+.days__week {
+    display: inline-block;
+    margin-right: 0.25em;
+}
+
+
+.head__month {
+    color: rgb(131, 131, 226);
+}
