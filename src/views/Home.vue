@@ -7,15 +7,19 @@
       </div>
       <div class="days">
         <div class="days__btn">
-          <h3 class="days__text">{{ month2 }} {{  }}</h3>
+          <h3 class="days__text">{{ month2 }}</h3>
           <button class="arrow up"></button>
           <button class="arrow down"></button>
         </div>
         <div class="days__week"  v-for="day in week" :key="day">{{day}}</div>
-        <div class="days__day" ></div>
+        <div class="days__day" >
+          <ul>
+            <li></li>
+          </ul>
+        </div>
       </div>
       <div class="today">
-        <h2>Сегодня</h2>
+        <div class="today__text">Сегодня</div>
         <input placeholder="Добавить событие или напоминание" type="text">
         <p>Нет событий</p>
       </div>

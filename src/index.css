@@ -7,6 +7,17 @@ body {
     background: #333536;
 }
 
+p {
+    font-size: 12px;
+}
+
+input {
+    border: solid 0.5px #eeeeee;
+    background: #333536;
+    color: white;
+    padding: 5px;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1000px;
@@ -16,7 +27,7 @@ body {
 /* button arrow */
 
 .arrow {
-    border: solid rgb(182, 180, 180);
+    border: solid rgb(214, 212, 212);
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
@@ -49,12 +60,10 @@ body {
     border-top: solid 0.5px #eeeeee;
 }
 
-input {
-    border: solid 0.5px #eeeeee;
-    background: #333536;
-    color: white;
+.today__text {
+    padding: 8px 0px 8px 0px;
+    font-size: 15px;
 }
-
 
 .days__week {
     display: inline-block;
